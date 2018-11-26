@@ -1,6 +1,7 @@
 from numseq.fib import fib
-from numseq.geo import *
-from numseq.prime import *
+from numseq.geo import square, triangle, cube
+from numseq.prime import primes, is_prime
+
 
 def numseq_package_test():
     print("Fibonacci")
@@ -17,6 +18,7 @@ def numseq_package_test():
         print(p)
     print("Is 999981 prime? {}".format(is_prime(999981)))
     print("Is 999983 prime? {}".format(is_prime(999983)))
+
 
 if __name__ == '__main__':
     numseq_package_test()

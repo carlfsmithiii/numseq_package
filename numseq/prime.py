@@ -1,8 +1,10 @@
 import math
 
+
 def primes(num):
     """ Returns list of all primes <= num """
     return [n for n in range(num + 1) if is_prime(n)]
+
 
 def is_prime(num):
     """ Returns True if num is prime, else False """
