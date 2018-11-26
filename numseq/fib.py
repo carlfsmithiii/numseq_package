@@ -1,4 +1,5 @@
 def fib(n):
+    """ Returns nth Fibonacci number """
     if (n < 2):
         return n
     else:
